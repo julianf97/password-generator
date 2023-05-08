@@ -239,7 +239,7 @@ body {
     .contenedorPassword{
         display: flex;
         width: 510px;
-        height: 60px;
+        height: 60px !important;
         background-color: #24232B;
         padding-left: 15px;
         padding-right: 15px;
