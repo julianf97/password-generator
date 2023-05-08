@@ -158,7 +158,7 @@ export const Generator = () => {
             <div className='contenedorOpciones'>
                 <div className='contenedorSlider'>
                     <div className='contenedorLabel'>
-                        <label for="slider" className='sliderlabel flex'> 
+                        <label className='sliderlabel flex'> 
                             Character Length
                         </label>
                         <span className='sliderValue' id='sliderValue'>{data}</span>
@@ -189,7 +189,7 @@ export const Generator = () => {
                 </div>
                 <div className='checkboxes flex'>
                     <div className='contenedorInternoChecks'>
-                        <label for="inclLowercase" className='checkboxLabel'>
+                        <label className='checkboxLabel'>
                             <div onClick={ () => {    handleCheckLower(); console.log(checkLower, "Lower")}}>
                                 {
                                     checkLower ? <div type='checkbox' className='contenedorCheckActive'>
@@ -200,7 +200,7 @@ export const Generator = () => {
                             </div>
                             <h6>Include Lowercase Letters</h6>
                         </label>
-                        <label for="inclUppercase" className='checkboxLabel'>
+                        <label  className='checkboxLabel'>
                             <div onClick={ () => {    handleCheckUpper(); console.log(checkUpper, "Upper")}}>
                                 {
                                     checkUpper ? <div type='checkbox' className='contenedorCheckActive'>
@@ -211,7 +211,7 @@ export const Generator = () => {
                             </div>
                             <h6>Include Uppercase Letters</h6>
                         </label>
-                        <label for="inclNumber" className='checkboxLabel'>
+                        <label className='checkboxLabel'>
                             <div onClick={ () => {    handleCheckNumber(); console.log(checkNumber, "Number")}}>
                                 {
                                     checkNumber ? <div type='checkbox' className='contenedorCheckActive'>
@@ -222,7 +222,7 @@ export const Generator = () => {
                             </div>
                             <h6>Include Numbers</h6>
                         </label>
-                        <label for="inclSymbols" className='checkboxLabel'>
+                        <label  className='checkboxLabel'>
                             <div onClick={ () => {    handleCheckSymbol(); console.log(checkSymbol, "Symbol")}}>
                                 {
                                     checkSymbol ? <div type='checkbox' className='contenedorCheckActive'>
@@ -311,7 +311,7 @@ export const Generator = () => {
                 </div>
             </div>
             {
-                alert ? <p id="alert" class="fs-3 alert">Please select one or more options</p>
+                alert ? <p id="alert" className="fs-3 alert">Please select one or more options</p>
                         : <p></p>
             }
             
