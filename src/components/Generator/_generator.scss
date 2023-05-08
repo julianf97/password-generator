@@ -13,7 +13,7 @@
         height: 14% !important;
         display: flex;
         justify-content: center;
-        align-items: end;
+        align-items: flex-end;
         .tituloApp{
             font-weight: 400;
             font-size: 1rem !important;
@@ -109,7 +109,7 @@
                 height: 100%;
                 display: flex;
                 align-items: center;
-                justify-content: end;
+                justify-content: flex-end;
                 p{
                     font-size: 1rem !important;
                     margin-right: 0px !important;
@@ -230,7 +230,7 @@ body {
         height: 9% !important;
         display: flex;
         justify-content: center;
-        align-items: end;
+        align-items: flex-end;
         margin-top: 40px !important;
         .tituloApp{
             font-weight: 450;
@@ -364,7 +364,7 @@ body {
             height: 100%;
             display: flex;
             align-items: center;
-            justify-content: end;
+            justify-content:  flex-end;
             p{
                 font-size: 1.4rem;
                 margin-right: 10px;
@@ -453,7 +453,7 @@ body {
         .contenedorLabel{
             height: 40%;
             display: flex;
-            align-items: end;
+            align-items: flex-end;
             padding-left: 5px;
             padding-right: 5px;
             justify-content: space-between !important;
