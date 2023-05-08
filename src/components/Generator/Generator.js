@@ -187,7 +187,7 @@ export const Generator = () => {
                 </div>
                 <div className='checkboxes flex'>
                     <div className='contenedorInternoChecks'>
-                        <label className='checkboxLabel'>
+                        <label className='checkboxLabel contenedorCheckSup'>
                             <div className='contenedorCheckSup' onClick={ () => {    handleCheckLower(); console.log(checkLower, "Lower")}}>
                                 {
                                     checkLower ? <div type='checkbox' className='contenedorCheckActive'>
@@ -198,7 +198,7 @@ export const Generator = () => {
                             </div>
                             <h6>Include Lowercase Letters</h6>
                         </label>
-                        <label  className='checkboxLabel'>
+                        <label  className='checkboxLabel contenedorCheckSup'>
                             <div className='contenedorCheckSup' onClick={ () => {    handleCheckUpper(); console.log(checkUpper, "Upper")}}>
                                 {
                                     checkUpper ? <div type='checkbox' className='contenedorCheckActive'>
@@ -209,7 +209,7 @@ export const Generator = () => {
                             </div>
                             <h6>Include Uppercase Letters</h6>
                         </label>
-                        <label className='checkboxLabel'>
+                        <label className='checkboxLabel contenedorCheckSup'>
                             <div className='contenedorCheckSup' onClick={ () => {    handleCheckNumber(); console.log(checkNumber, "Number")}}>
                                 {
                                     checkNumber ? <div type='checkbox' className='contenedorCheckActive'>
@@ -220,7 +220,7 @@ export const Generator = () => {
                             </div>
                             <h6>Include Numbers</h6>
                         </label>
-                        <label className='checkboxLabel'>
+                        <label className='checkboxLabel contenedorCheckSup'>
                             <div className='contenedorCheckSup' onClick={ () => {    handleCheckSymbol(); console.log(checkSymbol, "Symbol")}}>
                                 {
                                     checkSymbol ? <div type='checkbox' className='contenedorCheckActive'>
