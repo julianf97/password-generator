@@ -188,7 +188,7 @@ export const Generator = () => {
                 <div className='checkboxes flex'>
                     <div className='contenedorInternoChecks'>
                         <label className='checkboxLabel'>
-                            <div onClick={ () => {    handleCheckLower(); console.log(checkLower, "Lower")}}>
+                            <div className='contenedorCheckSup' onClick={ () => {    handleCheckLower(); console.log(checkLower, "Lower")}}>
                                 {
                                     checkLower ? <div type='checkbox' className='contenedorCheckActive'>
                                                     <FontAwesomeIcon className='iconCopyActive' icon={faCheck}/>
