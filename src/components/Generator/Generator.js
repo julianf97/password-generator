@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCopy, faCheck, faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { Input } from '../Input/Input';
 import { useState, useContext } from 'react';
 import { ValueContext } from '../../Context/ValueContext'
 import { GenerationContext } from '../../Context/GenerationContext';
@@ -22,7 +21,6 @@ export const Generator = () => {
     const [includeLowercase, setIncludeLowercase] = useState(false)
     const [includeNumbers, setIncludeNumbers] = useState(false)
     const [includeSymbols, setIncludeSymbols] = useState(false)
-    const [disabled, setDisabled] = useState(false)
 
 
     const [ password, setPassword ] = useState("")
