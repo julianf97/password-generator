@@ -308,7 +308,6 @@ body {
                 height: 17px;
                 border: solid 1px hsl(var(--clr-almostWhite));
                 appearance: none;
-                border: solid 1px rgb(0, 17, 255);
                 .iconCopy{
                     color: #000;
                     visibility: hidden;
@@ -332,12 +331,6 @@ body {
                     color: #000;
                     visibility: visible;
                 }
-            }
-            h6{
-                margin-left: 15px;
-                font-size: 1rem;
-                border: solid 1px white;
-                height: auto;
             }
         }
 
@@ -512,4 +505,11 @@ body {
 .contenedorCheckSup{
     height: 19px !important;
     width: auto !important;
+}
+
+.claseLabel{
+    margin-left: 15px;
+    font-size: 1rem;
+    border: solid 1px white;
+    height: auto;
 }

@@ -196,7 +196,7 @@ export const Generator = () => {
                                             : <div type='checkbox' className='contenedorCheck'></div>
                                 }
                             </div>
-                            <h6>Include Lowercase Letters</h6>
+                            <span className='claseLabel'> Include Lowercase Letters </span>
                         </label>
                         <label  className='checkboxLabel contenedorCheckSup'>
                             <div className='contenedorCheckSup' onClick={ () => {    handleCheckUpper(); console.log(checkUpper, "Upper")}}>
@@ -207,7 +207,7 @@ export const Generator = () => {
                                             : <div type='checkbox' className='contenedorCheck'></div>
                                 }
                             </div>
-                            <h6>Include Uppercase Letters</h6>
+                            <span className='claseLabel'>Include Uppercase Letters </span>
                         </label>
                         <label className='checkboxLabel contenedorCheckSup'>
                             <div className='contenedorCheckSup' onClick={ () => {    handleCheckNumber(); console.log(checkNumber, "Number")}}>
@@ -218,7 +218,7 @@ export const Generator = () => {
                                             : <div type='checkbox' className='contenedorCheck'></div>
                                 }
                             </div>
-                            <h6>Include Numbers</h6>
+                            <span className='claseLabel'>Include Numbers</span>
                         </label>
                         <label className='checkboxLabel contenedorCheckSup'>
                             <div className='contenedorCheckSup' onClick={ () => {    handleCheckSymbol(); console.log(checkSymbol, "Symbol")}}>
@@ -229,7 +229,7 @@ export const Generator = () => {
                                             : <div type='checkbox' className='contenedorCheck'></div>
                                 }
                             </div>
-                            <h6>Include Symbols</h6>
+                            <span className='claseLabel'>Include Symbols</span>
                         </label>
                     </div>
                 </div>
