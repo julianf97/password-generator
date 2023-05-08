@@ -199,7 +199,7 @@ export const Generator = () => {
                             <h6>Include Lowercase Letters</h6>
                         </label>
                         <label  className='checkboxLabel'>
-                            <div onClick={ () => {    handleCheckUpper(); console.log(checkUpper, "Upper")}}>
+                            <div className='contenedorCheckSup' onClick={ () => {    handleCheckUpper(); console.log(checkUpper, "Upper")}}>
                                 {
                                     checkUpper ? <div type='checkbox' className='contenedorCheckActive'>
                                                     <FontAwesomeIcon className='iconCopyActive' icon={faCheck}/>
@@ -210,7 +210,7 @@ export const Generator = () => {
                             <h6>Include Uppercase Letters</h6>
                         </label>
                         <label className='checkboxLabel'>
-                            <div onClick={ () => {    handleCheckNumber(); console.log(checkNumber, "Number")}}>
+                            <div className='contenedorCheckSup' onClick={ () => {    handleCheckNumber(); console.log(checkNumber, "Number")}}>
                                 {
                                     checkNumber ? <div type='checkbox' className='contenedorCheckActive'>
                                                     <FontAwesomeIcon className='iconCopyActive' icon={faCheck}/>
@@ -220,8 +220,8 @@ export const Generator = () => {
                             </div>
                             <h6>Include Numbers</h6>
                         </label>
-                        <label  className='checkboxLabel'>
-                            <div onClick={ () => {    handleCheckSymbol(); console.log(checkSymbol, "Symbol")}}>
+                        <label className='checkboxLabel'>
+                            <div className='contenedorCheckSup' onClick={ () => {    handleCheckSymbol(); console.log(checkSymbol, "Symbol")}}>
                                 {
                                     checkSymbol ? <div type='checkbox' className='contenedorCheckActive'>
                                                     <FontAwesomeIcon className='iconCopyActive' icon={faCheck}/>
